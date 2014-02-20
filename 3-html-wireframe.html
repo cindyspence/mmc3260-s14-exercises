@@ -1,46 +1,66 @@
 <!DOCTYPE html>
-<html>
 
-    <head>
-        <title>Exercise 3: HTML wireframe</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="A basic HTML layout styles with CSS.">
-        <meta name="keywords" content="HTML,CSS,layout,wireframe,mmc3260">
-        <meta name="author" content="Dave Stanton">
-        <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-    </head>
+<html lang="en">
 
-    <body>
+<head>
+	<meta charset="utf-8" />
+	<title>Cindy Spence, Writer and Editor</title>
+	<link href="styles.css" rel="stylesheet" type="text/css"/>
+	
+	<! --stylesheets do not exist yet, still to come -->
+	
+</head>
 
-        <header>
-            <h1>HTML testing for wireframe layout</h1>
-        </header>
+<body>
+<div>
 
-        <nav>
-            <p>
-            <a href="1-html-quick-fix.html">HTML quick fix</a>
-            <a href="2-html-links-and-images.html">HTML links and images</a></p>
-            
-        </nav>
+<header role="banner">
+	<!-- no name here; name in middle -->
+	<p>Cindy Spence</p>
 
-        <article>
+<nav role="navigation">
 
-            <section>
-                <h2>Section heading</h2>
-                <p>Put whatever you want here.</p>
-            </section>
+<ul>
+	
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="recentstories.html">Recent Stories</a></li>
+	<li><a href="travels.html">Travels</a></li>
+</ul>
+</nav>
+	
+</header>
+	
+<main role=”main”>
+<!--logo will go here -->	
+	
+<figure class="right">
+	<img src="images/csportrait.jpg" width="350" height="350" alt="Cindy Spence" title="Cindy Spence" class="right" />
+	
+</figure>
+	
+<!--background and logo Cindy Spence Writer and Editor to be styled in css -->
 
-            <aside>
-                <h2>Aside heading</h2>
-                <p>Be careful about having an aside element just for dumping other things. This area, however, might be a great spot for sharing tools or related links to this article.</p>
-            </aside>
-
-        </article>
-
-        <h2>Copyright</h2><footer>
-            <p id="copyright">&copy; 2013. Content in your projects should be all original. Any content from additional sources should explicitly state the source and give credit. The GIFs used in these exercises were found on <a href="http://giphy.com/">Giphy</a>. If these exercises were intended for public viewing, I should track down the actual copyright owner for all of the images I used.</p>
-        </footer>        
-
-    </body>
-
+</div>
+	
+<footer>
+	<nav role="navigation">
+	
+<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="recentstories.html">Recent Stories</a></li>
+		<li><a href="travels.html">Travels</a></li>
+</ul>
+		
+	<p><small>%copy; Copyright Cindy Spence 2013</small></p>
+© 2013<a class="email" href=mailto:cindyrspence@yahoo.com>Cindy Spence</a></p>
+	<p><a class=”facebook” href=https://www.facebook.com/cindy.spence.31>Facebook</a></p>
+	<p><a class=”twitter” href=https://twitter.com/Cindyrspence>Twitter</a></p>
+	</nav>
+	
+</footer>
+ 
+</body>
 </html>
+
